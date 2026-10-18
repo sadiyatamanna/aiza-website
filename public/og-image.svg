@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080b16"/><stop offset="1" stop-color="#11142a"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 530h1200" stroke="#a5aec2" stroke-opacity=".12"/>
+  <text x="94" y="174" fill="#ff83cd" font-family="Arial,sans-serif" font-size="21" letter-spacing="5">WOMEN'S SAFETY × POST-QUANTUM CRYPTOGRAPHY</text>
+  <text x="90" y="316" fill="#f8f9ff" font-family="Arial,sans-serif" font-size="83" font-weight="700">AIZA</text>
+  <text x="94" y="386" fill="#ff2daa" font-family="Arial,sans-serif" font-size="36">Personal Safety. Secure Communication.</text>
+  <text x="94" y="441" fill="#a5aec2" font-family="Arial,sans-serif" font-size="25">A Post-Quantum Future.</text>
+  <image x="855" y="148" width="220" height="220" preserveAspectRatio="xMidYMid meet" href="/assets/aiza-logo-symbol.png" xlink:href="/assets/aiza-logo-symbol.png"/>
+</svg>
