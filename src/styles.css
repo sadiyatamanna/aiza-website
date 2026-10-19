@@ -21,6 +21,12 @@
 @media(max-width:760px){.site-header{height:64px}.nav-wrap{width:calc(100% - 36px)}.menu-toggle{display:grid;place-items:center;margin-left:auto;width:37px;height:37px;border:1px solid var(--border);border-radius:5px;background:#141b2d;color:var(--text)}.menu-toggle svg{width:18px}.nav-links{display:none;position:absolute;top:63px;left:0;right:0;padding:8px 19px 16px;background:#0d1222;border-bottom:1px solid var(--border);box-shadow:0 12px 25px #0007;margin:0}.nav-links.nav-open{display:flex;align-items:stretch;flex-direction:column;gap:0}.nav-links a{padding:12px 3px;border-bottom:1px solid var(--border);font-size:13px}.nav-links a.active{box-shadow:none;color:var(--magenta)}.mobile-nav-download{display:block!important;color:#ff8bce!important;font-weight:700}.nav-download{display:none}.hero-inner{grid-template-columns:1fr;gap:20px;padding-block:51px 52px}.hero h1{font-size:clamp(36px,6.2vw,45px)}.hero-device{height:535px}}
 .phone-statusbar{font-size:8px}.phone-statusbar span:last-child{font-size:7px}.phone-online{font-size:7px}.phone-status-card small{font-size:7px}.phone-status-card b{font-size:8px}.phone-contacts-head{font-size:9px}.phone-contacts-head span{font-size:8px}.phone-contact{font-size:9px}.contact-avatar{font-size:7px}.phone-location span,.phone-location b{font-size:8px}.phone-location small,.phone-location em{font-size:7px}.phone-sos-wrap>b{font-size:6px}.phone-tabs small{font-size:6px}.phone-caption{font-size:8px}
 @media(max-width:450px){.hero h1{font-size:clamp(24px,7.7vw,35px);line-height:1.14}}
+.hero-copy>p.hero-brand-expansion{max-width:none;margin:-8px 0 14px;color:#d99ac9;font-size:12px;font-weight:600;letter-spacing:.035em}
+.hero-phone{display:inline-flex;align-items:center;gap:7px;margin:11px 0 0 3px;color:#cbb8ed;font-size:12px;font-weight:600}
+.hero-phone:hover{color:#ff9bd8}
+.footer-release .footer-contact-links{display:inline-flex;align-items:center;gap:14px;margin-left:auto}
+.footer-release .footer-contact-links a{margin:0}
+@media(max-width:720px){.hero-phone{font-size:13px}.footer-release{flex-wrap:wrap}.footer-release .footer-contact-links{width:100%;margin-left:13px;flex-wrap:wrap}}
 
 /* Safety trigger and evidence explanations: shared dark/magenta product language. */
 .safety-detail-section{border-top:1px solid var(--border)}

@@ -1,4 +1,5 @@
 import { siteConfig } from '../config'
+import { Link } from 'react-router-dom'
 
 const sections = [
   ['Acceptance of Terms', '[Describe how terms are presented and accepted before use.]'],
@@ -11,9 +12,9 @@ const sections = [
   ['Intellectual Property', '[Add verified ownership and permitted-use terms.]'],
   ['Changes to the Application', '[Describe how app changes and feature availability will be communicated.]'],
   ['Updates to the Terms', '[Describe notice of terms changes, approval date, and applicable process after legal review.]'],
-  ['Contact Information', siteConfig.supportEmail || 'Official support details will be published here.'],
+  ['Contact Information', siteConfig.contactEmail],
 ]
 
 export function Terms() {
-  return <main className="policy-page"><div className="policy-wrap"><header className="policy-heading"><span className="eyebrow">AIZA · TERMS OF USE</span><h1>Terms of <em>Use</em></h1><p>These draft terms outline topics for review. They are not final legal terms and must be reviewed before publication.</p><div className="policy-meta"><span>Status</span><b>Draft — not yet effective</b></div></header><div className="policy-alert"><p><b>Legal review required.</b> Replace bracketed content and have the complete terms reviewed by appropriate counsel before launch.</p></div><article className="policy-article">{sections.map(([title,body],index)=><section className="policy-section" key={title}><span className="policy-index">{String(index+1).padStart(2,'0')}</span><div><h2>{title}</h2><p>{body}</p></div></section>)}</article></div></main>
+  return <main className="policy-page"><div className="policy-wrap"><header className="policy-heading"><span className="eyebrow">AIZA · TERMS OF USE</span><h1>Terms of <em>Use</em></h1><p>These draft terms outline topics for review. They are not final legal terms and must be reviewed before publication.</p><div className="policy-meta"><span>Status</span><b>Draft — not yet effective</b></div><nav className="legal-switcher" aria-label="Privacy and terms"><Link to="/privacy">Privacy Policy <span aria-hidden="true">↗</span></Link><span aria-current="page">Terms of Use</span></nav></header><div className="policy-alert"><p><b>Legal review required.</b> Replace bracketed content and have the complete terms reviewed by appropriate counsel before launch.</p></div><article className="policy-article">{sections.map(([title,body],index)=><section className="policy-section" key={title}><span className="policy-index">{String(index+1).padStart(2,'0')}</span><div><h2>{title}</h2><p>{body}</p></div></section>)}</article></div></main>
 }
