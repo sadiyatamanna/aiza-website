@@ -2,8 +2,8 @@
 export const siteConfig = {
   brandName: 'AIZA',
   logoUrl: '/assets/aiza-logo-symbol.png',
-  downloadUrl: '',
-  releaseStatus: 'Coming Soon',
+  downloadUrl: 'https://github.com/sadiyatamanna/aiza-app/releases/download/v1.0.0/AIZA.1.0.apk',
+  releaseStatus: 'Available Now',
   contactEmail: 'sadiyatamanna8114@gmail.com',
   contactPhone: '+91 7899871615',
   instagramHandle: 'tamannakhan._',
